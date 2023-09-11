@@ -1,0 +1,113 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="{% static 'css/landing-page.css' %}">
+    <link rel="stylesheet" href="{% static 'css/types.css' %}">
+    <link rel="stylesheet" href="{% static 'css/featured-products.css' %}">
+    <title>Shoes Store</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="{% static 'imgs/logoipsum.svg' %}" alt="My image">
+        </div>
+        <ul>
+            <li>
+                <a href="">
+                    shoes
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    slippers
+                </a>
+            </li>
+        </ul>
+        <ul>
+            <li>
+                <a href="">
+                    name
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    cart
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <div class="landing-page">
+        <div class="container">
+            <div class="left">
+                <h1>Raining Offers For Hot Summer!</h1>
+                <p>25% Off On All Products</p>
+                <a href="">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+    <div class="types">
+        <div class="container">
+            <div class="shoes">
+                <h3>shoes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
+                <a href="">SHOP NOW</a>
+            </div>
+            <div class="accessories">
+                <h3>slippers</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
+                <a href="">SHOP NOW</a>
+            </div>
+        </div>
+    </div>
+    <div class="featured-products">
+        <div class="container">
+            <h2>Featured Products</h2>
+            <div class="product">
+                <img src="{% static 'imgs/airforce.webp' %}" alt="">
+                <div class="sale">sale</div>
+                <div class="add-to-cart">add to cart</div>
+                <h4>Air Force</h4>
+                <div class="type">Men</div>
+                <div class="price">60$</div>
+                <ul class="colors">
+                    <div class="color white"></div>
+                    <div class="color black"></div>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="special-edition">
+        <div class="container">
+            <h4>Limeted Time Offer</h4>
+            <h3>Special Edition</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            <h4>Buy This T-shirt At 20% Discount, Use Code OFF20</h4>
+            <a href="" class="shop-now">SHOP NOW</a>
+        </div>
+    </div>
+    <div class="features">
+        <div class="container">
+            <div class="feature-box">
+                <img src="" alt="">
+                <h4>Worldwide Shipping</h4>
+                <p>It elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div>
+                <div class="logo"></div>
+                <h4>
+                    The best look anytime, anywhere.
+                </h4>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,58 @@
+.featured-products {
+    
+}
+
+.featured-products .container {
+    min-height: 90vh;
+}
+
+.featured-products .container h2 {
+
+}
+
+.featured-products .container .product {
+
+}
+
+.featured-products .container .product img {
+    max-width: 250px;
+}
+
+.featured-products .container .product .sale {
+
+}
+
+.featured-products .container .product .add-to-cart {
+
+}
+
+.featured-products .container .product h4 {
+
+}
+
+.featured-products .container .product .type {
+
+}
+
+.featured-products .container .product .price {
+
+}
+
+.featured-products .container .product .colors {
+
+}
+
+.featured-products .container .product .color {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.featured-products .container .product .black {
+    background-color: #fff;
+}
+
+.featured-products .container .product .black {
+
+}

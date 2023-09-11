@@ -1,0 +1,22 @@
+.landing-page {
+    min-height: 95vh;
+}
+
+.landing-page .left {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.landing-page .left h1 {
+    
+}
+
+.landing-page .left p {
+    
+}
+
+.landing-page .left a {
+    
+}
